@@ -1,0 +1,106 @@
+@media screen and (min-width: 360px){
+
+
+body{
+    background-color:#1F1717;
+    
+    font-family: 'Young Serif', serif;
+    
+}
+
+
+.container{
+    margin-top: 100px;
+    margin-bottom: 250px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 290;
+    background-color:#CE5A67;
+    border-radius: 10px;
+    border: 3px solid #FDF0F0;
+    
+    
+      
+      
+    
+}
+
+button{
+    width: 80px;
+    height: 30px;
+    border-radius: 15px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #280F34;
+    display: inline-block;
+    cursor: pointer;
+    color: antiquewhite;
+
+    
+    
+}
+button:hover{
+    background-color: #630000;
+    color: white;
+}
+
+input{
+    margin: 10px;
+    padding: 4px;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 550px;
+    height: 24px;
+    border: 1px solid white;
+    background-color: #F9DEC9;
+    
+    
+    
+}
+h1{
+    text-align: center;
+    color: white;
+    background-color: #210062;
+}
+#ToDo{
+padding: 100px;
+}
+
+h2{
+text-align: center;
+color: white;
+background-color: #210062;
+}
+.delete-btn{
+    
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color : white;
+    border-radius: 10px;
+    background-color: green;
+
+}
+.delete-btn:hover{
+    background-color: red;
+    color: yellow;
+}
+
+/* tasklist background and all stuff*/
+li{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #210062;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #BACDDB;
+    border-radius: 10px;
+    font-family: Georgia, serif;
+}
+ 
+
+/*media queries*/
+
+}
